@@ -1,0 +1,74 @@
+#logo {
+    position: relative;
+    margin: auto;
+    margin-left: 510px;
+}
+
+body {
+    margin: 0;
+    /*tira margem ao redor de todo o site*/
+    overflow-x: hidden;
+    /* Oculta a barra de rolagem horizontal // para ocultar a vertical, basta trocar o x por y */
+}
+
+h1 {
+    color: white;
+    position: relative;
+    top: 27%;
+    Left: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3 {
+    color: white;
+    position: relative;
+    top: 27%;
+    Left: 33%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2 {
+    color: white;
+    position: relative;
+    padding-top: 10px;
+    margin: auto;
+    margin-left: 370px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    top: 0px;
+    background-color: rgb(35, 31, 32);
+}
+
+.galeria {
+    position: relative;
+    background-image: url(https://image.freepik.com/foto-gratis/fondo-de-textura-de-madera-clara_43307-12.jpg);
+    background-attachment: fixed;
+}
+
+.galeria img {
+    margin-top: 5%;
+    margin-left: 22%;
+}
+
+#sobreImagem {
+    size: 100%;
+    background-color: rgb(35, 31, 32);
+}
+
+.rodape {
+    /* color: white; */
+    background-color: rgb(35, 31, 32);
+}
+
+.rodape-direita {
+    float: right;
+    padding-right: 65px;
+    padding-bottom: 30px;
+}
+
+#contato {
+    color: black;
+    margin: 0;
+}
